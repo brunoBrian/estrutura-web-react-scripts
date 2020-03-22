@@ -1,7 +1,9 @@
 import React from 'react';
 
+import Title from '../../components/Title';
+
 function App() {
-  return <h1>Estrutura front end</h1>;
+  return <Title />;
 }
 
 export default App;

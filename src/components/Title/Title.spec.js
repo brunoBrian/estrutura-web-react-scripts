@@ -3,10 +3,10 @@ import ReactTestUtils from 'react-dom/test-utils';
 
 import { render } from 'enzyme';
 
-import App from '.';
+import Title from '.';
 
 describe('App', () => {
-  const component = render(<App />);
+  const component = render(<Title />);
 
   it('Should output a App component', () => {
     expect(component.length).toEqual(1);
